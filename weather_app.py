@@ -10,7 +10,7 @@ CSV_FILE = "weather_history.csv"
 
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
 print("DEBUG API Key:", API_KEY)
-
+API_KEY = "f93f6003cda3c15bf384ede48f316bb9"
 # ---------------- CSV INITIALIZATION ----------------
 
 if not os.path.exists(CSV_FILE):
