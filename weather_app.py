@@ -9,7 +9,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 CSV_FILE = "weather_history.csv"
 
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
-print("DEBUG API KEY:", API_KEY)
+print("DEBUG API Key:", API_KEY)
 
 # ---------------- CSV INITIALIZATION ----------------
 
@@ -143,7 +143,7 @@ def main():
             analytics()
 
         elif choice == "4":
-            print("👋 Exiting Weather App. Goodbye!")
+            print(" Exiting Weather App. Goodbye!")
             break
 
         else:
